@@ -146,7 +146,7 @@ public class App {
         accArr[6] = a5;
 
 
-        // deposit another rm700 to siti
+        // deposit another rm700 to si
         accArr[3].deposit(700);
 
 
