@@ -70,13 +70,14 @@ class BankAccount {
 
 
     public void printTransac(){
-        for(int i=0; i<idx;i++){
+        for(int i=0; i<idx;
+        i++){
             System.out.println(transactionHistory[i]);
         }
     }
 
 
-    // Set dividend rate
+
     public void setDividendRate(double rate) {
         dividendRate = rate;
         // too simple - need refinement
